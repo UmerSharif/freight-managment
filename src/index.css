@@ -1,13 +1,47 @@
-body {
+@import url("https://fonts.googleapis.com/css?family=Unica+One&display=swap");
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Unica One", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
 }
+
+ul {
+  list-style: none;
+}
+#root {
+  width: 100%;
+}
+
+/* p {
+  font-size: 1.2rem;
+  color: #303d46;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  color: aliceblue;
+} */
