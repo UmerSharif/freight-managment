@@ -4,9 +4,9 @@ The goal of the app is to calculate the minimum approx no of card board boxes th
 
 ### Inputs
 
-● 200g bags are sized 16 cm (width) x 23 cm (height) x 2 cm (length)
-● 400g bags are sized 22 cm x 26 cm x 2 cm
-● 1000g bags are sized 14 cm x 26 cm x 10 cm
+- 200g bags are sized 16 cm (width) x 23 cm (height) x 2 cm (length)
+- 400g bags are sized 22 cm x 26 cm x 2 cm
+- 1000g bags are sized 14 cm x 26 cm x 10 cm
 
 ### Output
 
