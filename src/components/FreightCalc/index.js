@@ -11,7 +11,15 @@ export default function FreightCalc() {
   //function to handle optimum number of Boxes required
 
   const handleBoxes = () => {
-    if (smallbag < 0 || mediumbag < 0 || largebag < 0) {
+    // check for invalid inputs
+    if (
+      smallbag < 0 ||
+      smallbag === "" ||
+      mediumbag < 0 ||
+      mediumbag === "" ||
+      largebag < 0 ||
+      largebag === ""
+    ) {
       setErrors("Quantity of Coffee Bags can not be Negetive..!");
       setRequiredBoxes(0);
       setSmallBag(0);
