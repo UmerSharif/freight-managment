@@ -14,7 +14,7 @@ Total number of card borad boxes required.
 
 ### Assumptions
 
-1.This app assumes that In order to accomodate the coffee bags, it needs to be rotated so that all the bags can be fitted.
+1. This app assumes that In order to accomodate the coffee bags, it needs to be rotated so that all the bags can be fitted.
 
 2. For rounding up values this app uses [Math.ceil](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil) which means that value of 7.004 will be converted to 8. This can be changed depending on the real situation.
 
