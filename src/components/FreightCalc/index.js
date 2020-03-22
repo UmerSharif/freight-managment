@@ -39,6 +39,7 @@ export default function FreightCalc() {
         setRequiredBoxes(Math.ceil(combinedVolume / volumeOfBox));
         setErrors("");
       } else if (combinedVolume === 0) {
+        setRequiredBoxes(0);
         setErrors("Please specify the number of Coffee Bags.");
       }
     }
@@ -137,7 +138,7 @@ export default function FreightCalc() {
           <div className="boxes">
             {requiredBoxes && (
               <>
-                <span>Minimun Number of Boxes Required : </span>&nbsp;
+                <span>Minimun Number of Approx. Boxes Required : </span>&nbsp;
                 <span className="info-text">{requiredBoxes}</span>
               </>
             )}
