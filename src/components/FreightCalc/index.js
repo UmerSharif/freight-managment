@@ -20,7 +20,7 @@ export default function FreightCalc() {
       largebag < 0 ||
       largebag === ""
     ) {
-      setErrors("Quantity of Coffee Bags can not be Negetive..!");
+      setErrors("Quantity of Coffee Bags can not be Negetive OR Empty");
       setRequiredBoxes(0);
       setSmallBag(0);
       setMediumBag(0);
