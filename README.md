@@ -22,6 +22,10 @@ Total number of card borad boxes required.
 
 In the project directory, you can run:
 
+### `yarn install`
+
+To run locally clone the repo and then run the above command.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
